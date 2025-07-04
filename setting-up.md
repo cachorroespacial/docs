@@ -6,56 +6,76 @@ description: Aqui você verá como configurar o RPCT de forma correta.
 
 Antes de configurar, certifique-se de ter o Client do discord instalado, e não do navegador. Também é importante ter habilitado o status de atividade nas configurações do Discord.
 
-<figure><img src=".gitbook/assets/Habilite.png" alt=""><figcaption><p>Habilite</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Habilite.png" alt=""></figure>
 
 ## Configurando o Bot
 
 * Abra o site [RPCT](https://rpct.netlify.app/)
 * Clique em **New Application** no canto superior direito.
 
-<figure><img src=".gitbook/assets/Create.png" alt=""><figcaption><p>NewApplication</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Create.png" alt=""></figure>
 
 * Escolha o nome do Bot, ele será exibido após "Jogando" no status; clique em Criar.
-* Copie o **ID do bot e cole-o no campo Application ID** do RPCT, depois pressione **Start RP**
+* Copie o **ID do bot e cole-o no campo Application ID** do RPCT, depois pressione **Connect Account**
 
-<figure><img src=".gitbook/assets/IDbot.png" alt=""><figcaption><p>Bot ID</p></figcaption></figure>
+<figure><img src=".gitbook/assets/IDbot.png" alt=""></figure>
+
+* Depois, no campo "Large Image" você deve colocar o nome da imagem que foi configurado no portal de desenvolvedores ou colocar uma URL de uma imagem ou gif. Os tipos suportados são: jpeg, png e gif.
 
 * Se tudo ocorrer bem, seu status no Discord Agora deve ser "Jogando \[Nome-escolhido] ". Se ocorrer erros, olhe o [help.md](help.md "mention") .
 
 &#x20;       O Status não vai ser exibido se você estiver no modo invisível.
 
-* Agora você pode preencher os campos (os botões personalizados, é opcional):
+* **Agora você pode preencher os campos:**
 
-&#x20;   \*  Details : Primeira linha, abaixo do Application ID.
+    * **Details** : Primeira linha, abaixo do Application ID.
 
-&#x20;   \*  State :  Segunda linha, abaixo da linha Details.
+    * **Status** :  Segunda linha, abaixo da linha Details.
 
-&#x20;   \*  Text of button :  Botão personalizado, com um nome de sua escolha.
+    * **Large Image** : Nome ou URL da imagem grande que aparecerá na atividade.
 
-&#x20;   \*  URL of button : URL de sua escolha para o Botão personalizado.
+    * **Large Image Text** : Escrita que aparecerá ao passar o cursor sobre a imagem grande.
 
-&#x20;   \*  Show elapsed time : Esse botão faz motrar o tempo decorrido do Status.
+    * **Small Image** : Nome ou URL da imagem pequena que aparecerá no canto da atividade.
 
-&#x20;   \*  Use custom time : Esse botão faz o tempo decorrido ser de sua escolha.
+    * **Small Image Text** : Escrita que aparecerá ao passar o cursor sobre a imagem pequena.
 
-* O que cada botão faz?
+    * **Text of button** :  Botão personalizado, com um nome de sua escolha.
 
-&#x20;   \*  Start RP : Inicia a sua presença personalizada.
+    * **URL of button** : URL de sua escolha para o Botão personalizado.
 
-&#x20;   \*  Stop RP : Para a sua presença personalizada.
+    * **Show elapsed time** : Esse botão faz motrar o tempo decorrido do Status.
 
-&#x20;   \*  Saves : Mostra as suas configurações salvas e permite criar novas com nomes e ilustrações diferentes.
+    * **Use custom time** : Esse botão faz o tempo decorrido ser de sua escolha.
 
-&#x20;   \*  Settings : Mostra as configurações do programa.
+## O que cada botão faz?
+* Botões da tela inicial
+    * **Connect Account** : Conecta ao discord (Necessário para usar o próximo botão).
+    * **Start** : Inicia a sua presença personalizada.
 
-&#x20;        \* Save settings : Salva as configurações atuais do programa.
+    * **Stop** : Para a sua presença personalizada.
 
-&#x20;        \* Load settings : Carrega as configurações salvas do programa.
+    * **Saves** : Mostra as suas configurações salvas e permite criar novas com nomes e ilustrações diferentes.
 
-&#x20;        \* Enable start with system : Inicia o programa com o computador.
+    * **Settings** : Mostra as configurações do programa.
 
-&#x20;        \* Disable start with system : Desativa a função de iniciar com o computador.
+    * **Type of activity** : Permite escolher o tipo de atividade (Jogando, ouvindo, transmitindo, competindo, assistindo).
 
+## Botões dos menus : 
+* Saves:
+
+    * **New Save** : Cria um save novo pegando as informações atuais.
+    * **Refresh** : Recarrega o menu.
+    * **Load** : Carrega a configuração.
+    * **Delete** : Deleta aquela configuração.
+
+* Settings:
+
+    * **Enable start with windows** : Faz o programa abrir quando o computador ligar.
+
+    * **Disable start with windows** : Desativa a opção do programa abrir quando o computador ligar.
+
+    * **Close** : Fecha o menu.
 
 
 ## Notas:
@@ -66,16 +86,4 @@ Antes de configurar, certifique-se de ter o Client do discord instalado, e não 
 
 
 ##
-
-
-
-
-
-
-
-
-
-
-
-&#x20;     &#x20;
 
